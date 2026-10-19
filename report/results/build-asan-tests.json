@@ -1,0 +1,874 @@
+{
+  "binary": "/Users/matveyyuri/Desktop/Общее/Учёба/OS_Lab3_Variant10/build-asan/OS_Lab3_Variant10",
+  "passed": 124,
+  "tests": [
+    {
+      "test": "two/p=1",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=2\nthread_limit=1\nactual_threads=1\ntime_seconds=0.000002000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nverification=PASS\nx[1]=2\nx[2]=1\n",
+      "stderr": ""
+    },
+    {
+      "test": "two/p=2",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=2\nthread_limit=2\nactual_threads=2\ntime_seconds=0.000017000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nverification=PASS\nx[1]=2\nx[2]=1\n",
+      "stderr": ""
+    },
+    {
+      "test": "two/p=4",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=2\nthread_limit=4\nactual_threads=2\ntime_seconds=0.000017000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nverification=PASS\nx[1]=2\nx[2]=1\n",
+      "stderr": ""
+    },
+    {
+      "test": "two/p=8",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=2\nthread_limit=8\nactual_threads=2\ntime_seconds=0.000023000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nverification=PASS\nx[1]=2\nx[2]=1\n",
+      "stderr": ""
+    },
+    {
+      "test": "three/p=1",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=3\nthread_limit=1\nactual_threads=1\ntime_seconds=0.000004000\nresidual_inf=8.881784197001e-16\nrelative_residual=3.062684205863e-17\nverification=PASS\nx[1]=2.0000000000000004\nx[2]=2.9999999999999996\nx[3]=-0.99999999999999911\n",
+      "stderr": ""
+    },
+    {
+      "test": "three/p=2",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=3\nthread_limit=2\nactual_threads=2\ntime_seconds=0.000036000\nresidual_inf=8.881784197001e-16\nrelative_residual=3.062684205863e-17\nverification=PASS\nx[1]=2.0000000000000004\nx[2]=2.9999999999999996\nx[3]=-0.99999999999999911\n",
+      "stderr": ""
+    },
+    {
+      "test": "three/p=4",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=3\nthread_limit=4\nactual_threads=3\ntime_seconds=0.000033000\nresidual_inf=8.881784197001e-16\nrelative_residual=3.062684205863e-17\nverification=PASS\nx[1]=2.0000000000000004\nx[2]=2.9999999999999996\nx[3]=-0.99999999999999911\n",
+      "stderr": ""
+    },
+    {
+      "test": "three/p=8",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=3\nthread_limit=8\nactual_threads=3\ntime_seconds=0.000075000\nresidual_inf=8.881784197001e-16\nrelative_residual=3.062684205863e-17\nverification=PASS\nx[1]=2.0000000000000004\nx[2]=2.9999999999999996\nx[3]=-0.99999999999999911\n",
+      "stderr": ""
+    },
+    {
+      "test": "pivot/p=1",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=3\nthread_limit=1\nactual_threads=1\ntime_seconds=0.000004000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nverification=PASS\nx[1]=1\nx[2]=2\nx[3]=-1\n",
+      "stderr": ""
+    },
+    {
+      "test": "pivot/p=2",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=3\nthread_limit=2\nactual_threads=2\ntime_seconds=0.000025000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nverification=PASS\nx[1]=1\nx[2]=2\nx[3]=-1\n",
+      "stderr": ""
+    },
+    {
+      "test": "pivot/p=4",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=3\nthread_limit=4\nactual_threads=3\ntime_seconds=0.000031000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nverification=PASS\nx[1]=1\nx[2]=2\nx[3]=-1\n",
+      "stderr": ""
+    },
+    {
+      "test": "pivot/p=8",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=3\nthread_limit=8\nactual_threads=3\ntime_seconds=0.000036000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nverification=PASS\nx[1]=1\nx[2]=2\nx[3]=-1\n",
+      "stderr": ""
+    },
+    {
+      "test": "one/p=1",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=1\nthread_limit=1\nactual_threads=1\ntime_seconds=0.000001000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nverification=PASS\nx[1]=4\n",
+      "stderr": ""
+    },
+    {
+      "test": "one/p=2",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=1\nthread_limit=2\nactual_threads=1\ntime_seconds=0.000002000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nverification=PASS\nx[1]=4\n",
+      "stderr": ""
+    },
+    {
+      "test": "one/p=4",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=1\nthread_limit=4\nactual_threads=1\ntime_seconds=0.000002000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nverification=PASS\nx[1]=4\n",
+      "stderr": ""
+    },
+    {
+      "test": "one/p=8",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=1\nthread_limit=8\nactual_threads=1\ntime_seconds=0.000002000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nverification=PASS\nx[1]=4\n",
+      "stderr": ""
+    },
+    {
+      "test": "scaled/p=1",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=2\nthread_limit=1\nactual_threads=1\ntime_seconds=0.000004000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nverification=PASS\nx[1]=2\nx[2]=1\n",
+      "stderr": ""
+    },
+    {
+      "test": "scaled/p=2",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=2\nthread_limit=2\nactual_threads=2\ntime_seconds=0.000021000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nverification=PASS\nx[1]=2\nx[2]=1\n",
+      "stderr": ""
+    },
+    {
+      "test": "scaled/p=4",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=2\nthread_limit=4\nactual_threads=2\ntime_seconds=0.000013000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nverification=PASS\nx[1]=2\nx[2]=1\n",
+      "stderr": ""
+    },
+    {
+      "test": "scaled/p=8",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=2\nthread_limit=8\nactual_threads=2\ntime_seconds=0.000034000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nverification=PASS\nx[1]=2\nx[2]=1\n",
+      "stderr": ""
+    },
+    {
+      "test": "zero_rhs/p=1",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=2\nthread_limit=1\nactual_threads=1\ntime_seconds=0.000004000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nverification=PASS\nx[1]=0\nx[2]=0\n",
+      "stderr": ""
+    },
+    {
+      "test": "zero_rhs/p=2",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=2\nthread_limit=2\nactual_threads=2\ntime_seconds=0.000051000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nverification=PASS\nx[1]=0\nx[2]=0\n",
+      "stderr": ""
+    },
+    {
+      "test": "zero_rhs/p=4",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=2\nthread_limit=4\nactual_threads=2\ntime_seconds=0.000049000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nverification=PASS\nx[1]=0\nx[2]=0\n",
+      "stderr": ""
+    },
+    {
+      "test": "zero_rhs/p=8",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=2\nthread_limit=8\nactual_threads=2\ntime_seconds=0.000056000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nverification=PASS\nx[1]=0\nx[2]=0\n",
+      "stderr": ""
+    },
+    {
+      "test": "singular/p=1",
+      "status": "PASS",
+      "returncode": 2,
+      "stdout": "size=2\nthread_limit=1\nactual_threads=1\ntime_seconds=0.000006000\n",
+      "stderr": "Singular or numerically unsafe system: unique solution unavailable.\n"
+    },
+    {
+      "test": "singular/p=4",
+      "status": "PASS",
+      "returncode": 2,
+      "stdout": "size=2\nthread_limit=4\nactual_threads=2\ntime_seconds=0.000056000\n",
+      "stderr": "Singular or numerically unsafe system: unique solution unavailable.\n"
+    },
+    {
+      "test": "inconsistent/p=1",
+      "status": "PASS",
+      "returncode": 2,
+      "stdout": "size=2\nthread_limit=1\nactual_threads=1\ntime_seconds=0.000005000\n",
+      "stderr": "Singular or numerically unsafe system: unique solution unavailable.\n"
+    },
+    {
+      "test": "inconsistent/p=4",
+      "status": "PASS",
+      "returncode": 2,
+      "stdout": "size=2\nthread_limit=4\nactual_threads=2\ntime_seconds=0.000059000\n",
+      "stderr": "Singular or numerically unsafe system: unique solution unavailable.\n"
+    },
+    {
+      "test": "zero/p=1",
+      "status": "PASS",
+      "returncode": 2,
+      "stdout": "size=2\nthread_limit=1\nactual_threads=1\ntime_seconds=0.000002000\n",
+      "stderr": "Singular or numerically unsafe system: unique solution unavailable.\n"
+    },
+    {
+      "test": "zero/p=4",
+      "status": "PASS",
+      "returncode": 2,
+      "stdout": "size=2\nthread_limit=4\nactual_threads=2\ntime_seconds=0.000003000\n",
+      "stderr": "Singular or numerically unsafe system: unique solution unavailable.\n"
+    },
+    {
+      "test": "near_singular/p=1",
+      "status": "PASS",
+      "returncode": 2,
+      "stdout": "size=2\nthread_limit=1\nactual_threads=1\ntime_seconds=0.000004000\n",
+      "stderr": "Singular or numerically unsafe system: unique solution unavailable.\n"
+    },
+    {
+      "test": "near_singular/p=4",
+      "status": "PASS",
+      "returncode": 2,
+      "stdout": "size=2\nthread_limit=4\nactual_threads=2\ntime_seconds=0.000026000\n",
+      "stderr": "Singular or numerically unsafe system: unique solution unavailable.\n"
+    },
+    {
+      "test": "incomplete/p=1",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Expected finite matrix coefficients and right sides.\n"
+    },
+    {
+      "test": "incomplete/p=4",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Expected finite matrix coefficients and right sides.\n"
+    },
+    {
+      "test": "nan/p=1",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Expected finite matrix coefficients and right sides.\n"
+    },
+    {
+      "test": "nan/p=4",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Expected finite matrix coefficients and right sides.\n"
+    },
+    {
+      "test": "inf/p=1",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Expected finite matrix coefficients and right sides.\n"
+    },
+    {
+      "test": "inf/p=4",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Expected finite matrix coefficients and right sides.\n"
+    },
+    {
+      "test": "extra/p=1",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Extra data or read error in matrix file.\n"
+    },
+    {
+      "test": "extra/p=4",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Extra data or read error in matrix file.\n"
+    },
+    {
+      "test": "bad_size/p=1",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Invalid matrix size in file.\n"
+    },
+    {
+      "test": "bad_size/p=4",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Invalid matrix size in file.\n"
+    },
+    {
+      "test": "generated/n=1/p=1",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=1\nthread_limit=1\nactual_threads=1\ntime_seconds=0.000001000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nmax_solution_error=0.000000000000e+00\nverification=PASS\nx[1]=-3\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=1/p=2",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=1\nthread_limit=2\nactual_threads=1\ntime_seconds=0.000001000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nmax_solution_error=0.000000000000e+00\nverification=PASS\nx[1]=-3\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=1/p=4",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=1\nthread_limit=4\nactual_threads=1\ntime_seconds=0.000001000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nmax_solution_error=0.000000000000e+00\nverification=PASS\nx[1]=-3\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=1/p=8",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=1\nthread_limit=8\nactual_threads=1\ntime_seconds=0.000001000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nmax_solution_error=0.000000000000e+00\nverification=PASS\nx[1]=-3\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=2/p=1",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=2\nthread_limit=1\nactual_threads=1\ntime_seconds=0.000005000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nmax_solution_error=0.000000000000e+00\nverification=PASS\nx[1]=-3\nx[2]=-2\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=2/p=2",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=2\nthread_limit=2\nactual_threads=2\ntime_seconds=0.000075000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nmax_solution_error=0.000000000000e+00\nverification=PASS\nx[1]=-3\nx[2]=-2\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=2/p=4",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=2\nthread_limit=4\nactual_threads=2\ntime_seconds=0.000019000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nmax_solution_error=0.000000000000e+00\nverification=PASS\nx[1]=-3\nx[2]=-2\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=2/p=8",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=2\nthread_limit=8\nactual_threads=2\ntime_seconds=0.000019000\nresidual_inf=0.000000000000e+00\nrelative_residual=0.000000000000e+00\nmax_solution_error=0.000000000000e+00\nverification=PASS\nx[1]=-3\nx[2]=-2\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=3/p=1",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=3\nthread_limit=1\nactual_threads=1\ntime_seconds=0.000005000\nresidual_inf=7.105427357601e-15\nrelative_residual=8.994211845065e-17\nmax_solution_error=4.440892098501e-16\nverification=PASS\nx[1]=-3.0000000000000004\nx[2]=-2.0000000000000004\nx[3]=-0.99999999999999978\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=3/p=2",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=3\nthread_limit=2\nactual_threads=2\ntime_seconds=0.000039000\nresidual_inf=7.105427357601e-15\nrelative_residual=8.994211845065e-17\nmax_solution_error=4.440892098501e-16\nverification=PASS\nx[1]=-3.0000000000000004\nx[2]=-2.0000000000000004\nx[3]=-0.99999999999999978\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=3/p=4",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=3\nthread_limit=4\nactual_threads=3\ntime_seconds=0.000028000\nresidual_inf=7.105427357601e-15\nrelative_residual=8.994211845065e-17\nmax_solution_error=4.440892098501e-16\nverification=PASS\nx[1]=-3.0000000000000004\nx[2]=-2.0000000000000004\nx[3]=-0.99999999999999978\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=3/p=8",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=3\nthread_limit=8\nactual_threads=3\ntime_seconds=0.000052000\nresidual_inf=7.105427357601e-15\nrelative_residual=8.994211845065e-17\nmax_solution_error=4.440892098501e-16\nverification=PASS\nx[1]=-3.0000000000000004\nx[2]=-2.0000000000000004\nx[3]=-0.99999999999999978\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=7/p=1",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=7\nthread_limit=1\nactual_threads=1\ntime_seconds=0.000009000\nresidual_inf=2.842170943040e-14\nrelative_residual=7.363137158136e-17\nmax_solution_error=4.440892098501e-16\nverification=PASS\nx[1]=-3\nx[2]=-2\nx[3]=-1.0000000000000002\nx[4]=1.0383682058609004e-16\nx[5]=1.0000000000000004\nx[6]=2\nx[7]=3\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=7/p=2",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=7\nthread_limit=2\nactual_threads=2\ntime_seconds=0.000283000\nresidual_inf=2.842170943040e-14\nrelative_residual=7.363137158136e-17\nmax_solution_error=4.440892098501e-16\nverification=PASS\nx[1]=-3\nx[2]=-2\nx[3]=-1.0000000000000002\nx[4]=1.0383682058609004e-16\nx[5]=1.0000000000000004\nx[6]=2\nx[7]=3\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=7/p=4",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=7\nthread_limit=4\nactual_threads=4\ntime_seconds=0.000205000\nresidual_inf=2.842170943040e-14\nrelative_residual=7.363137158136e-17\nmax_solution_error=4.440892098501e-16\nverification=PASS\nx[1]=-3\nx[2]=-2\nx[3]=-1.0000000000000002\nx[4]=1.0383682058609004e-16\nx[5]=1.0000000000000004\nx[6]=2\nx[7]=3\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=7/p=8",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=7\nthread_limit=8\nactual_threads=7\ntime_seconds=0.000255000\nresidual_inf=2.842170943040e-14\nrelative_residual=7.363137158136e-17\nmax_solution_error=4.440892098501e-16\nverification=PASS\nx[1]=-3\nx[2]=-2\nx[3]=-1.0000000000000002\nx[4]=1.0383682058609004e-16\nx[5]=1.0000000000000004\nx[6]=2\nx[7]=3\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=10/p=1",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=10\nthread_limit=1\nactual_threads=1\ntime_seconds=0.000013000\nresidual_inf=2.842170943040e-14\nrelative_residual=5.486816492356e-17\nmax_solution_error=4.440892098501e-16\nverification=PASS\nx[1]=-3\nx[2]=-2.0000000000000004\nx[3]=-1.0000000000000002\nx[4]=1.5175874552462261e-16\nx[5]=0.99999999999999978\nx[6]=2.0000000000000004\nx[7]=3.0000000000000004\nx[8]=-3.0000000000000004\nx[9]=-2.0000000000000004\nx[10]=-0.99999999999999989\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=10/p=2",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=10\nthread_limit=2\nactual_threads=2\ntime_seconds=0.000341000\nresidual_inf=2.842170943040e-14\nrelative_residual=5.486816492356e-17\nmax_solution_error=4.440892098501e-16\nverification=PASS\nx[1]=-3\nx[2]=-2.0000000000000004\nx[3]=-1.0000000000000002\nx[4]=1.5175874552462261e-16\nx[5]=0.99999999999999978\nx[6]=2.0000000000000004\nx[7]=3.0000000000000004\nx[8]=-3.0000000000000004\nx[9]=-2.0000000000000004\nx[10]=-0.99999999999999989\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=10/p=4",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=10\nthread_limit=4\nactual_threads=4\ntime_seconds=0.000389000\nresidual_inf=2.842170943040e-14\nrelative_residual=5.486816492356e-17\nmax_solution_error=4.440892098501e-16\nverification=PASS\nx[1]=-3\nx[2]=-2.0000000000000004\nx[3]=-1.0000000000000002\nx[4]=1.5175874552462261e-16\nx[5]=0.99999999999999978\nx[6]=2.0000000000000004\nx[7]=3.0000000000000004\nx[8]=-3.0000000000000004\nx[9]=-2.0000000000000004\nx[10]=-0.99999999999999989\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=10/p=8",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=10\nthread_limit=8\nactual_threads=8\ntime_seconds=0.000885000\nresidual_inf=2.842170943040e-14\nrelative_residual=5.486816492356e-17\nmax_solution_error=4.440892098501e-16\nverification=PASS\nx[1]=-3\nx[2]=-2.0000000000000004\nx[3]=-1.0000000000000002\nx[4]=1.5175874552462261e-16\nx[5]=0.99999999999999978\nx[6]=2.0000000000000004\nx[7]=3.0000000000000004\nx[8]=-3.0000000000000004\nx[9]=-2.0000000000000004\nx[10]=-0.99999999999999989\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=31/p=1",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=1\nactual_threads=1\ntime_seconds=0.000180000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=31/p=2",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=2\nactual_threads=2\ntime_seconds=0.000496000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=31/p=4",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=4\nactual_threads=4\ntime_seconds=0.000760000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=31/p=8",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001036000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=100/p=1",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=100\nthread_limit=1\nactual_threads=1\ntime_seconds=0.004312000\nresidual_inf=2.046363078989e-12\nrelative_residual=3.775577636511e-16\nmax_solution_error=3.996802888651e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=100/p=2",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=100\nthread_limit=2\nactual_threads=2\ntime_seconds=0.003337000\nresidual_inf=2.046363078989e-12\nrelative_residual=3.775577636511e-16\nmax_solution_error=3.996802888651e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=100/p=4",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=100\nthread_limit=4\nactual_threads=4\ntime_seconds=0.003746000\nresidual_inf=2.046363078989e-12\nrelative_residual=3.775577636511e-16\nmax_solution_error=3.996802888651e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=100/p=8",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=100\nthread_limit=8\nactual_threads=8\ntime_seconds=0.005620000\nresidual_inf=2.046363078989e-12\nrelative_residual=3.775577636511e-16\nmax_solution_error=3.996802888651e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=300/p=1",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=300\nthread_limit=1\nactual_threads=1\ntime_seconds=0.647359000\nresidual_inf=1.273292582482e-11\nrelative_residual=8.223810517872e-16\nmax_solution_error=7.993605777301e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=300/p=2",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=300\nthread_limit=2\nactual_threads=2\ntime_seconds=0.334863000\nresidual_inf=1.273292582482e-11\nrelative_residual=8.223810517872e-16\nmax_solution_error=7.993605777301e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=300/p=4",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=300\nthread_limit=4\nactual_threads=4\ntime_seconds=0.078092000\nresidual_inf=1.273292582482e-11\nrelative_residual=8.223810517872e-16\nmax_solution_error=7.993605777301e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=300/p=8",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=300\nthread_limit=8\nactual_threads=8\ntime_seconds=0.094329000\nresidual_inf=1.273292582482e-11\nrelative_residual=8.223810517872e-16\nmax_solution_error=7.993605777301e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=600/p=1",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=600\nthread_limit=1\nactual_threads=1\ntime_seconds=1.581695000\nresidual_inf=3.637978807092e-11\nrelative_residual=1.194581600805e-15\nmax_solution_error=1.154631945610e-14\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=600/p=2",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=600\nthread_limit=2\nactual_threads=2\ntime_seconds=1.470159000\nresidual_inf=3.637978807092e-11\nrelative_residual=1.194581600805e-15\nmax_solution_error=1.154631945610e-14\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=600/p=4",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=600\nthread_limit=4\nactual_threads=4\ntime_seconds=0.675123000\nresidual_inf=3.637978807092e-11\nrelative_residual=1.194581600805e-15\nmax_solution_error=1.154631945610e-14\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=600/p=8",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=600\nthread_limit=8\nactual_threads=8\ntime_seconds=0.505052000\nresidual_inf=3.637978807092e-11\nrelative_residual=1.194581600805e-15\nmax_solution_error=1.154631945610e-14\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=1000/p=1",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=1000\nthread_limit=1\nactual_threads=1\ntime_seconds=6.173379000\nresidual_inf=7.275957614183e-11\nrelative_residual=1.454813271386e-15\nmax_solution_error=1.421085471520e-14\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=1000/p=2",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=1000\nthread_limit=2\nactual_threads=2\ntime_seconds=3.755786000\nresidual_inf=7.275957614183e-11\nrelative_residual=1.454813271386e-15\nmax_solution_error=1.421085471520e-14\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=1000/p=4",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=1000\nthread_limit=4\nactual_threads=4\ntime_seconds=2.487144000\nresidual_inf=7.275957614183e-11\nrelative_residual=1.454813271386e-15\nmax_solution_error=1.421085471520e-14\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "generated/n=1000/p=8",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=1000\nthread_limit=8\nactual_threads=8\ntime_seconds=1.843943000\nresidual_inf=7.275957614183e-11\nrelative_residual=1.454813271386e-15\nmax_solution_error=1.421085471520e-14\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "bad_args/0",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Invalid arguments. Use --help.\n"
+    },
+    {
+      "test": "bad_args/1",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Invalid arguments. Use --help.\n"
+    },
+    {
+      "test": "bad_args/2",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Invalid arguments. Use --help.\n"
+    },
+    {
+      "test": "bad_args/3",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Invalid arguments. Use --help.\n"
+    },
+    {
+      "test": "bad_args/4",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Invalid arguments. Use --help.\n"
+    },
+    {
+      "test": "bad_args/5",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Invalid arguments. Use --help.\n"
+    },
+    {
+      "test": "bad_args/6",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Invalid arguments. Use --help.\n"
+    },
+    {
+      "test": "bad_args/7",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Invalid arguments. Use --help.\n"
+    },
+    {
+      "test": "bad_args/8",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Invalid arguments. Use --help.\n"
+    },
+    {
+      "test": "bad_args/9",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Invalid arguments. Use --help.\n"
+    },
+    {
+      "test": "bad_args/10",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Invalid arguments. Use --help.\n"
+    },
+    {
+      "test": "bad_args/11",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "/nonexistent/lab3: No such file or directory\n"
+    },
+    {
+      "test": "bad_args/12",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Invalid arguments. Use --help.\n"
+    },
+    {
+      "test": "bad_args/13",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Invalid arguments. Use --help.\n"
+    },
+    {
+      "test": "bad_args/14",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Invalid arguments. Use --help.\n"
+    },
+    {
+      "test": "bad_args/15",
+      "status": "PASS",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Invalid arguments. Use --help.\n"
+    },
+    {
+      "test": "help",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "Usage: OS_Lab3_Variant10 (--size N | --file PATH) --threads P [--demo SEC]\n  --size N     Generate a reproducible system, 1 <= N <= 10000\n  --file PATH  Read N, then N rows of N coefficients and a right side\n  --threads P  Total thread limit including main, 1 <= P <= 256\n  --demo SEC   Pause with workers alive before timing, 1..300 seconds\n  --help       Show this help\nActual threads = min(P, N). Times exclude input, pool setup and checking.\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/0",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001436000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/1",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001147000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/2",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.000935000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/3",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001152000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/4",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001302000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/5",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001142000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/6",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001269000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/7",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001177000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/8",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001237000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/9",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001150000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/10",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001239000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/11",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001533000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/12",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001326000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/13",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001195000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/14",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001433000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/15",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001794000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/16",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001193000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/17",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001735000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/18",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001175000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/19",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001165000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/20",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.000971000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/21",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001194000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/22",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001155000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/23",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001191000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    },
+    {
+      "test": "synchronization_stress/24",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "size=31\nthread_limit=8\nactual_threads=8\ntime_seconds=0.001271000\nresidual_inf=2.842170943040e-13\nrelative_residual=1.738330852012e-16\nmax_solution_error=1.776356839400e-15\nverification=PASS\n",
+      "stderr": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+/build*/
+/cmake-build-*/
+/.idea/
+.DS_Store
+*.o
+*.dSYM/
+/report/.build/
+/report/preview/
+__pycache__/
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+/report/latex/main.pdf

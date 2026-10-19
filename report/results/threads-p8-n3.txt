@@ -1,0 +1,20 @@
+$ ps -M -p 13499
+USER         PID   TT   %CPU STAT PRI     STIME     UTIME COMMAND
+matveyyuri 13499   ??    0.6 S    31T   0:00.00   0:00.00 /Users/matveyyuri/Desktop/Общее/Учёба/OS_Lab3_Variant10/build/OS_Lab3_Variant10 --size 3 --threads 8 --demo 2
+           13499         0.0 S    31T   0:00.00   0:00.00 
+           13499         0.0 S    31T   0:00.00   0:00.00 
+
+Program output:
+size=3
+thread_limit=8
+actual_threads=3
+demo_pid=13499
+demo_seconds=2
+time_seconds=0.000055000
+residual_inf=7.105427357601e-15
+relative_residual=8.994211845065e-17
+max_solution_error=4.440892098501e-16
+verification=PASS
+x[1]=-3.0000000000000004
+x[2]=-2.0000000000000004
+x[3]=-0.99999999999999978

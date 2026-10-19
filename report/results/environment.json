@@ -1,0 +1,19 @@
+{
+  "date_moscow": "2026-10-19T13:31:03.874375+03:00",
+  "os": "ProductName:\t\tmacOS\nProductVersion:\t\t26.5.1\nBuildVersion:\t\t25F80\n",
+  "uname": {
+    "system": "Darwin",
+    "node": "MacBook-Pro-Matvej.local",
+    "release": "25.5.0",
+    "version": "Darwin Kernel Version 25.5.0: Mon Apr 27 20:38:00 PDT 2026; root:xnu-12377.121.6~2/RELEASE_ARM64_T8103",
+    "machine": "arm64",
+    "processor": "arm"
+  },
+  "hardware": "machdep.cpu.brand_string: Apple M1\nhw.memsize: 8589934592\nhw.physicalcpu: 8\nhw.logicalcpu: 8\n",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.0.123.102)\nTarget: arm64-apple-darwin25.5.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+  "build": "CMake Release, -O2 -DNDEBUG; no sanitizer",
+  "timer": "CLOCK_MONOTONIC; entire gauss(), excludes pool creation/destruction, input and verification",
+  "runs_per_pair": 7,
+  "warmups_per_pair": 1,
+  "main_c_sha256": "7237b94c97e9cc12227353ebce2d474f48357446039e36acd641cb697c78fb26"
+}
