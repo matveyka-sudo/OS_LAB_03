@@ -1,9 +1,0 @@
-Наблюдено через интерфейс CLion 19.10.2026 после нажатия Build:
-====================[ Build | OS_Lab3_Variant10 | Debug ]=======================
-"/Applications/CLion — копия.app/Contents/bin/cmake/mac/aarch64/bin/cmake" --build /Users/matveyyuri/Desktop/Общее/Учёба/OS_Lab3_Variant10/cmake-build-debug --target OS_Lab3_Variant10 -j 6
-[2/2] Linking C executable OS_Lab3_Variant10
-
-Build finished
-
-Профиль Debug: GNU GCC 16.2.0, согласно выводу CMake в IDE.
-Основные измерения: Apple Clang 21.0.0, Release -O2.

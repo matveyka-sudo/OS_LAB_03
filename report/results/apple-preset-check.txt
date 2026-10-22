@@ -1,8 +1,0 @@
-size=1000
-thread_limit=4
-actual_threads=4
-time_seconds=0.071745000
-residual_inf=7.275957614183e-11
-relative_residual=1.454813271386e-15
-max_solution_error=1.421085471520e-14
-verification=PASS

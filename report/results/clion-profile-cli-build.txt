@@ -1,2 +1,0 @@
-[1/2] Building C object CMakeFiles/OS_Lab3_Variant10.dir/main.c.o
-[2/2] Linking C executable OS_Lab3_Variant10
